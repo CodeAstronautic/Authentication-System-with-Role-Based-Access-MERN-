@@ -1,0 +1,199 @@
+.custom-navbar {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  /* Matches homepage */
+  padding: 0.4rem 1rem;
+  z-index: 1000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  /* subtle border */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffb86c !important;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0;
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #ffd399 !important;
+}
+
+/* Shared Login & Logout Button */
+.nav-btn {
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 6px 18px;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 15px rgba(255, 117, 140, 0.4);
+}
+
+.nav-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(255, 126, 179, 0.5);
+}
+
+
+.login-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  overflow: hidden;
+}
+
+.login-card {
+  background-color: #ffffff10;
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 50px 40px;
+  color: #fff;
+  max-width: 450px;
+  width: 100%;
+}
+
+.form-title {
+  color: #ffb86c;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.user-form label {
+  color: #b0c174;
+  font-weight: 500;
+}
+
+.user-form input {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.custom-submit-btn {
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 20px;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 20px rgba(255, 117, 140, 0.4);
+}
+
+.custom-submit-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 30px rgba(255, 126, 179, 0.5);
+}
+
+.error-text {
+  color: #ff6b6b;
+  font-size: 0.85rem;
+  margin-top: 5px;
+}
+
+.user-profile-container {
+  padding-top: 3rem;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+}
+
+.profile-card {
+  height: 0%;
+  background-color: #0B1F3A;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: scale(1.01);
+}
+
+.profile-info p {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+
+
+
+.homepage {
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  padding: 60px 0;
+  color: #fff;
+}
+
+/* Profile Image */
+.profile-img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+  transform: scale(1.03);
+}
+
+/* Profile Button */
+.profile-btn {
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 8px 20px rgba(255, 117, 140, 0.4);
+}
+
+.profile-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 30px rgba(255, 126, 179, 0.5);
+}
+
+body {
+  overflow: hidden;
+}
+
+
+.table {
+  background-color: #ffffff10;
+  backdrop-filter: blur(8px);
+  border-radius: 15px;
+  overflow: hidden;
+  font-size: 0.95rem;
+}
+
+.table th, .table td {
+  vertical-align: middle;
+}
+
+.table thead th {
+  color: #ffb86c;
+}
+
+.table td {
+  color: #e0e0e0;
+}
+
+.text-warning {
+  color: #ffd369 !important;
+}
+
+.text-info {
+  color: #80d0c7 !important;
+}
